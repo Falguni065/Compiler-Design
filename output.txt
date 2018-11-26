@@ -1,0 +1,68 @@
+Integer type variable
+Undeclared Variable
+Undeclared Variable
+50
+Division by zero
+0
+Float type variable
+This variable is already declared
+Integer type variable
+Undeclared Variable
+2
+Not greater equal
+The condition in if is false
+Less
+Expression value in if is 75
+Not greater
+Expression value in else is 1250
+Not less
+increment
+for loop
+Printing from 10 to 14:
+10
+11
+12
+13
+14
+Less equal
+increment
+for loop
+Printing from 5 to 10:
+5
+6
+7
+8
+9
+10
+Not greater
+decrement
+for loop
+Printing from 10 to 6:
+10
+9
+8
+7
+6
+Greater equal
+decrement
+for loop
+Printing from 10 to 5:
+10
+9
+8
+7
+6
+5
+Case 10 is false
+Case 25 is true
+Case 20 is false
+Case 10 is false
+Case 40 is false
+Case 20 is false
+It is default case
+Expression value is 25
+Expression value in while is 100
+Expression value in while is 100
+Expression value in while is 100
+Expression value in while is 100
+Expression value in while is 100

@@ -1,0 +1,65 @@
+intf {abcd},{pqr};
+abcd [equal] 50;
+pqr [equal] abcd [div] 2;
+print [abcd];
+print [ abcd [div] 0 ];
+
+floatf {pqr};
+intf {falGuni_065};
+
+falGuni_065 [equal] abcd [mod] 3;
+print [falGuni_065];
+
+if / pqr [ge] abcd /
+[ abcd [plus] pqr; ];
+
+if / pqr [ls] abcd /
+[ abcd [plus] pqr; ]
+else 
+[ abcd [cross] pqr; ];
+
+if / pqr [gr] abcd /
+[ abcd [plus] pqr; ]
+else 
+[ abcd [cross] pqr; ];
+
+for < pqr [equal] 10; pqr [ls] 15; pqr [inc] >
+/* pqr; */
+
+for < pqr [equal] 5; pqr [le] 10; pqr [inc] >
+/* pqr; */
+
+for < pqr [equal] 10; pqr [gr] 5; pqr [dec] >
+/* pqr; */
+
+for < pqr [equal] 10; pqr [ge] 5; pqr [dec] >
+/* pqr; */
+
+pqr [equal] 25;
+
+switch < pqr >
+{
+   case 10: pqr;
+	    stop;
+   case 25: pqr;
+	    stop; 
+   case 20: pqr;
+	    stop;
+   default: pqr;
+	    stop;
+}
+
+switch < pqr >
+{
+   case 10: pqr;
+	    stop;
+   case 40: pqr;
+	    stop; 
+   case 20: pqr;
+	    stop;
+   default: pqr;
+	    stop;
+}
+
+while < pqr [div] 5 >
+[ pqr [cross] 4 ]
